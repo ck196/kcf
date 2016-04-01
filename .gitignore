@@ -1,0 +1,6 @@
+*.avi
+*.cbp
+bin
+bin/*
+obj
+obj/*

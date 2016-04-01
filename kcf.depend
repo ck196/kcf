@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1449000645 source:/home/kju/Documents/kcf/fhog.cpp
+	"fhog.hpp"
+	<tbb/tbb.h>
+	"tbb/parallel_for.h"
+	"tbb/blocked_range.h"
+
+1449000645 /home/kju/Documents/kcf/fhog.hpp
+	<stdio.h>
+	"opencv2/imgproc/imgproc_c.h"
+	"float.h"
+
+1449000645 source:/home/kju/Documents/kcf/kcftracker.cpp
+	"kcftracker.hpp"
+	"ffttools.hpp"
+	"recttools.hpp"
+	"fhog.hpp"
+	"labdata.hpp"
+
+1449000645 /home/kju/Documents/kcf/kcftracker.hpp
+	"tracker.h"
+
+1449000645 /home/kju/Documents/kcf/tracker.h
+	<opencv2/opencv.hpp>
+	<string>
+
+1449000645 /home/kju/Documents/kcf/ffttools.hpp
+	<fftw3.h>
+
+1449000645 /home/kju/Documents/kcf/recttools.hpp
+	<math.h>
+
+1449000645 /home/kju/Documents/kcf/labdata.hpp
+
+1459423976 source:/home/kju/Documents/kcf/main.cpp
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<iostream>
+	"tracker.h"
+	"kcftracker.hpp"
+	<unistd.h>
+	<cstring>
+	<ctime>
+
+1458869589 source:/home/kju/Documents/kcf/runtracker.cpp
+
